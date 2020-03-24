@@ -1,0 +1,13 @@
+{
+    "name": "hector-zurga/php-autoloader",
+    "description": "Simple PHP Class autoloader to practice and make cool things",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector Zurga",
+            "email": "hjzurga@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
