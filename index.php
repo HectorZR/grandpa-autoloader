@@ -2,9 +2,18 @@
 
 require __DIR__ . '/app/Autoload/Loader.php';
 
-use App\Test\TestClass;
 
 App\Autoload\Loader::init( __DIR__ );
 
-$test = new TestClass();
-echo $test->getTest();
+// use App\Test\TestClass;
+// $test = new TestClass();
+// echo $test->getTest();
+
+use App\Test\ {
+    NewTestClass,
+    // TestClass
+};
+
+$new = new NewTestClass;
+// $new->test();
+$new->test2();
